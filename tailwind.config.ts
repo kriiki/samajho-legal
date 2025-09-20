@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'inter': ['Inter', 'system-ui', 'sans-serif'],
+        'roboto': ['Roboto', 'system-ui', 'sans-serif'],  
+        'nunito': ['Nunito Sans', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +51,26 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        safe: {
+          DEFAULT: "hsl(var(--safe))",
+          foreground: "hsl(var(--safe-foreground))",
+          bg: "hsl(var(--safe-bg))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+          bg: "hsl(var(--warning-bg))",
+        },
+        risk: {
+          DEFAULT: "hsl(var(--risk))",
+          foreground: "hsl(var(--risk-foreground))",
+          bg: "hsl(var(--risk-bg))",
+        },
+        neutral: {
+          DEFAULT: "hsl(var(--neutral))",
+          foreground: "hsl(var(--neutral-foreground))",
+          bg: "hsl(var(--neutral-bg))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
